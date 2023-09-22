@@ -5,3 +5,9 @@
     border: 0;
     box-sizing: border-box;
 }
+
+/*Foi apresentado o site CSSgradient.io */
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,26,91,1) 26%, rgba(39,172,203,1) 100%);
+}
