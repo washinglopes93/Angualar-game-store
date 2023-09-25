@@ -2,10 +2,10 @@
 
     <img
         class="card__img"
-        src="assets\starfield1.png" 
+        [src]=[gameCover] 
         alt=""
         srcset=""
     >
-    <app-card-label gameLabel="Exclusivo"></app-card-label>
-    <app-card-pricing></app-card-pricing>
+    <app-card-label gameLabel={{gameLabel}}></app-card-label>
+    <app-card-pricing gameType="{{gameType}}" gamePrice="{{gamePrice}}"></app-card-pricing>
 </a>
